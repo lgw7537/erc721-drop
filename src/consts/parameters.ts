@@ -2,7 +2,7 @@
 
 // Your smart contract address (available on the thirdweb dashboard)
 // For existing collections: import your existing contracts on the dashboard: https://thirdweb.com/dashboard
-export const contractConst = "0x436492DBc2E30E56FaC8F2297BD1964833c0687d";
+export const contractConst = "0x6b803e852f8D83A4F1B7De95223F9898aEa622D4";
 
 // The name of the chain your contract is deployed to.
 // Refer to README.md on how to specify the chain name.
@@ -12,7 +12,8 @@ export const chainConst = "mumbai";
 // Please ensure that you define the correct domain for your API key from the API settings page.
 // You can get one for free at https://thirdweb.com/create-api-key
 // Learn more here: https://blog.thirdweb.com/changelog/api-keys-to-access-thirdweb-infra
-export const clientIdConst = import.meta.env.VITE_TEMPLATE_CLIENT_ID || "";
+export const clientIdConst =
+  import.meta.env.VITE_TEMPLATE_CLIENT_ID || "386ecd24d652278f5c0ec1080e07af2d";
 
 // Configure the primary color for buttons and other UI elements
 export const primaryColorConst = "blue";
